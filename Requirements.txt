@@ -1,0 +1,17 @@
+astroid
+
+dill
+
+isort
+
+lazy-object-proxy
+
+mccabe
+
+platformdirs
+pylint
+
+tomli
+tomlkit
+
+wrapt
