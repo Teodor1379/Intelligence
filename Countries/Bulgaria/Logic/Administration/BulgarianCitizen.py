@@ -1,12 +1,14 @@
 class BulgarianCitizen:
-    def __init__(self, citizen_names, birth_date, birth_place):
+    def __init__(self, citizen_names, citizen_birth_date, citizen_birth_place, citizen_image):
         self.__citizen_first_name = citizen_names[0]
         self.__citizen_second_name = citizen_names[1]
         self.__citizen_third_name = citizen_names[2]
         self.__citizen_other_names = citizen_names[3:]
 
-        self.__citizen_birth_date = birth_date
-        self.__citizen_birth_place = birth_place
+        self.__citizen_birth_date = citizen_birth_date
+        self.__citizen_birth_place = citizen_birth_place
+
+        self.__citizen_image = citizen_image
 
         self.__citizen_father = None
         self.__citizen_mother = None
@@ -38,6 +40,10 @@ class BulgarianCitizen:
         return self.__citizen_birth_place
 
     @property
+    def citizen_image(self):
+        return self.__citizen_image
+
+    @property
     def citizen_father(self):
         return self.__citizen_father
 
@@ -61,6 +67,8 @@ class BulgarianCitizen:
 
         del self.__citizen_birth_date
         del self.__citizen_birth_place
+
+        del self.__citizen_image
 
         del self.__citizen_father
         del self.__citizen_mother
