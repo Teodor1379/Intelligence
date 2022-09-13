@@ -8,7 +8,7 @@ isort
 
 lazy-object-proxy
 
-mccabe
+mccabe==0.7.0
 
 packaging
 pip
