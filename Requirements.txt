@@ -6,7 +6,7 @@ dill==0.3.5.1
 iniconfig
 isort
 
-lazy-object-proxy
+lazy-object-proxy==1.7.1
 
 mccabe==0.7.0
 
