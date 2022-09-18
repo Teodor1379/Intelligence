@@ -11,7 +11,7 @@ lazy-object-proxy==1.7.1
 mccabe==0.7.0
 
 packaging
-pip
+pip==22.2.2
 platformdirs
 pluggy
 py
